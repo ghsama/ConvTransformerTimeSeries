@@ -11,7 +11,7 @@ The used loss is a Quantile loss or a KL loss (depends on the choice you made).
 
 Giving a list of time series (e.g : electricity consumation in many areas) and a corresponding covariate variables (e.g : weather temperature, precepitation, holidays ..) we aim to predict the next instance distribution (the mean and the standard deviation of a Log Normal).
 
-# Use :
+# Usage :
 Applying the models on the electricity dataset used in the article.
 Downloading the dataset : 
     python elect_preprocessing.py
@@ -39,7 +39,7 @@ Resulats :
 ![alt text](predictions/elect_01/15.png?raw=true)
 ![alt text](predictions/elect_01/44.png?raw=true)
 
-# Steps Explination :
+# Steps Explanation :
 
 **Preprocessing:** 
 *data_prep.py* : 

@@ -1,12 +1,10 @@
-!data_prepared/
+
 data_prepared/*
 
 not_include/
 
-!data_prep/
 data_prep/*
 
-!data_raw/
 data_raw/*
 
 *.pyc
