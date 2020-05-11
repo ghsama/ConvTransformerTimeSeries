@@ -1,5 +1,4 @@
-data_prepared/
+data_prepared/*
 not_include/
-data_raw/
-data_raw/
+data_raw/*
 *.pyc
