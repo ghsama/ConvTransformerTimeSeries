@@ -1,0 +1,1 @@
+{"k": 4, "headers": 3, "depth": 3, "seq_length": 192, "kernel_size": 6, "num_tokens": 370, "path" : "/home/lasngd/Projects/Pytorch/ConvTransformer/models/electricity_dt_1/ConvTransformer_electricity_dt_1_kernel6_start_3heads.pth"}
