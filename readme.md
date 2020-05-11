@@ -1,5 +1,5 @@
 # Convolution Transformer :
-This is first uncomplete implimentatio of 1D convolutional transformer for time series, it is inspired from the article [Arctile] . This first implimentation lack the sparcity feature, which will be comming in the next version.
+This is first uncomplete implimentatio of 1D convolutional transformer for time series, it is inspired from the article [Enhancing the Locality and Breaking the MemoryBottleneck of Transformer on Time Series Forecasting](https://arxiv.org/pdf/1907.00235.pdf) . This first implimentation lack the sparcity feature, which will be comming in the next version.
 
 The model consists of a stack of transformers which takes as input the a window of instance and predict the distribution of the next value.
 
