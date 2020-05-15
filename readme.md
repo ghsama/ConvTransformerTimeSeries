@@ -1,5 +1,5 @@
 # Convolution Transformer :
-This is first uncomplete implimentatio of 1D convolutional transformer for time series, it is inspired from the article [Enhancing the Locality and Breaking the MemoryBottleneck of Transformer on Time Series Forecasting](https://arxiv.org/pdf/1907.00235.pdf) . This first implimentation lack the sparcity feature, which will be comming in the next version.
+This is first implimentation of 1D convolutional transformer for time series, it is inspired from the article [Enhancing the Locality and Breaking the MemoryBottleneck of Transformer on Time Series Forecasting](https://arxiv.org/pdf/1907.00235.pdf) .
 
 The model consists of a stack of transformers which takes as input the a window of instance and predict the distribution of the next value.
 
@@ -33,6 +33,8 @@ Applying the prediction :
     python prediction.py --data-path data_raw/elect_prediction/500_LD2011_2014.txt --save-path predictions --steps 1 --model-config models/elect/model_config.json --meta-information data_prepared/elect/meta_information.json --prediction-name elect_01
 
 Resulats :
+
+The vertical line is the limit between train and test .
 
 ![alt text](predictions/elect_01/11.png?raw=true)
 ![alt text](predictions/elect_01/20.png?raw=true)
@@ -131,4 +133,4 @@ Outputs :  In *save_path/prediction_name/* directory
     - plots of the predictions
 
 # Sepecial thanks to : 
-  - To Yunkai Zhang for the implimentation of [DeepAR](https://github.com/zhykoties/TimeSeries), which i used to get some inspiration.
+  - Yunkai Zhang for the implimentation of [DeepAR](https://github.com/zhykoties/TimeSeries), which i used to get some inspiration.
